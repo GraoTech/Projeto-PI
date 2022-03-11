@@ -2,11 +2,11 @@
 
 ** Projeto GrãoTech desenvolvida pelos integrantes: **
 
-- Jefferson Filho
-- Lucas Bispo
-- Fabiano Souza
-- Pedro Lucas
-- Samuel Vinicios
-- Rafael Sampaio
-- Ricardo Souza
+- Jefferson Filho (JeeF-Jr)
+- Lucas Bispo (Master-Lukaa)
+- Fabiano Souza (FabianoSouzaCotrim)
+- Pedro Lucas (pedro-ps)
+- Samuel Vinicios (mukavine)
+- Rafael Sampaio (rafaelsampaio777)
+- Ricardo Souza (soarearicardo0131)
 
