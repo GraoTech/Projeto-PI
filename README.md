@@ -10,5 +10,5 @@ __integrantes:__
 - Samuel Vinicios (https://github.com/mukavine)
 - Rafael Sampaio (https://github.com/rafaelsampaio777)
 - Ricardo Souza (https://github.com/soaresricardo0131)
-- 
+
 ![silos_graotech](https://user-images.githubusercontent.com/78982351/157991512-1dc81e58-5434-40f9-9754-c87686b9a514.png)
