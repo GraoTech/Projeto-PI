@@ -10,4 +10,4 @@ __Projeto GrãoTech desenvolvida pelos integrantes:__
 - Rafael Sampaio (https://github.com/rafaelsampaio777)
 - Ricardo Souza (https://github.com/soaresricardo0131)
 
-![silos.jpg](https://www.oximag.com/blog/wp-content/uploads/2021/06/168066.jpg)
+![silos.jpg](https://blog.volkdobrasil.com.br/wp-content/uploads/2020/04/confiraxperigoseriscosemsilos.jpg)
