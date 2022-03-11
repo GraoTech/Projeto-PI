@@ -1,2 +1,12 @@
 # Projeto-PI
-Projeto semestral feito na faculdade SPTECH.
+
+** Projeto GrãoTech desenvolvida pelos integrantes: **
+
+- Jefferson Filho
+- Lucas Bispo
+- Fabiano Souza
+- Pedro Lucas
+- Samuel Vinicios
+- Rafael Sampaio
+- Ricardo Souza
+
