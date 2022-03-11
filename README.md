@@ -1,6 +1,6 @@
 # Projeto-PI
 
-* Projeto GrãoTech desenvolvida pelos integrantes: *
+__Projeto GrãoTech desenvolvida pelos integrantes:__
 
 - Jefferson Filho (https://github.com/Jeef-Jr)
 - Lucas Bispo (https://github.com/Master-Lukaa)
