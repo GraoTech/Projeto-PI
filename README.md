@@ -1,12 +1,12 @@
 # Projeto-PI
 
-** Projeto GrãoTech desenvolvida pelos integrantes: **
+* Projeto GrãoTech desenvolvida pelos integrantes: *
 
-- Jefferson Filho (JeeF-Jr)
-- Lucas Bispo (Master-Lukaa)
-- Fabiano Souza (FabianoSouzaCotrim)
-- Pedro Lucas (pedro-ps)
-- Samuel Vinicios (mukavine)
-- Rafael Sampaio (rafaelsampaio777)
-- Ricardo Souza (soarearicardo0131)
+- Jefferson Filho (https://github.com/Jeef-Jr)
+- Lucas Bispo (https://github.com/Master-Lukaa)
+- Fabiano Souza (https://github.com/FabianoSouzaCotrim)
+- Pedro Lucas (https://github.com/pedro-ps)
+- Samuel Vinicios (https://github.com/mukavine)
+- Rafael Sampaio (https://github.com/rafaelsampaio777)
+- Ricardo Souza (https://github.com/soaresricardo0131)
 
