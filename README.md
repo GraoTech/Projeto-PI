@@ -10,4 +10,4 @@ __integrantes:__
 - Rafael Sampaio (https://github.com/rafaelsampaio777)
 - Ricardo Souza (https://github.com/soaresricardo0131)
 
-![silos.jpg](https://blog.volkdobrasil.com.br/wp-content/uploads/2020/04/confiraxperigoseriscosemsilos.jpg)
+![silos_graotech.jpg](https://blog.volkdobrasil.com.br/wp-content/uploads/2020/04/confiraxperigoseriscosemsilos.jpg)
