@@ -1,5 +1,5 @@
 
-# Projeto GrãoTech desenvolvido na SPTECH!
+# Projeto GrãoTech desenvolvido na SPTECH SCHOOL!
 
 __integrantes:__
 
