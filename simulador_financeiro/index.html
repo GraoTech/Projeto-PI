@@ -10,9 +10,26 @@
   <style>
     #background {
       display: flex;
-
       justify-content: center;
-      background-color: #95d5b2;
+      background-image: url("https://media.seudinheiro.com/uploads/2018/12/soja.jpg");
+    }
+
+    img{
+      cursor: pointer;
+      width: 500px;
+      margin-right: 20px;
+      border-radius: 10px;
+      margin-top: 20vh;
+      height: 55vh;
+      width: 400px;
+      transition: 0.5s;
+    }
+
+    img:hover {
+      -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        
     }
     .card_simulator {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -24,11 +41,20 @@
       background-color: white;
       width: 700px;
       border-radius: 10px;
+      box-shadow: 1px 1px 10px grey;
       padding: 20px;
+      transition: 0.5s;
+    }
+
+    .card_simulator:hover {
+      -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
     }
 
     .row {
       display: flex;
+      justify-content: center;
       flex-direction: row;
     }
 
@@ -36,13 +62,22 @@
       display: flex;
       align-items: center;
       flex-direction: column;
-      margin-top: 20px;
+      margin-top: 40px;
+      margin-left: 40px;
     }
 
     input {
       font-size: 25px;
       height: 30px;
       width: 200px;
+      margin-top: 10px;
+      border: none;
+      border-bottom: 1px solid grey;
+    }
+
+    input:focus{
+      box-shadow: 0 0 0 0;
+      outline: 0;
     }
 
     button {
@@ -72,34 +107,47 @@
       border-radius: 10px 10px 0px 0px;
       padding: 20px;
       background-color: #edf2f4;
+      box-shadow: 1px 1px 10px grey;
     }
     .cards_content_cg {
       padding: 20px;
       border-radius: 0px 0px 10px 10px;
       background-color: #40916c;
       color: white;
+      box-shadow: 1px 1px 10px grey;
+    }
+
+    #campos {
+      margin-top: 50px;
+    }
+
+    span{
+      font-size: 13px;
     }
   </style>
   <body id="background">
+
+    <img src="https://cdn.discordapp.com/attachments/941765312540454982/951835897769377812/grao_tech_1.png" alt="">
+
     <div class="card_simulator">
       <h2>Simulador Financeiro</h2>
 
       <div id="campos">
         <span
-          >Simule a quantidade de perdas que você teria sem utilizar o nosso
-          sistema.</span
+          >Simule a quantidade de redução/perdas não utilizando o nosso sistema e utilizando.</span
         >
+        <div class="row">
+          <div class="column">
+          <span>Valor investido na Safra: </span>
+
+            <input type="number" name="" placeholder="R$00,00" id="qtd_investimentos" />
+          </div>
         <div class="column">
-          <span>Valor total investido: R$</span>
+          <span>Quantidade colhida na safra: Kg</span>
 
-          <input type="number" name="" id="qtd_investimentos" />
+          <input type="number" placeholder="0kg" name="" id="qtd_graos" />
         </div>
-        <div class="column">
-          <span>Quantidade de Kg Armazenada:</span>
-
-          <input type="number" name="" id="qtd_graos" />
-        </div>
-
+      </div>
         <div>
           <button onclick="calcular()">Calcular</button>
         </div>
@@ -129,7 +177,7 @@
     // Porcentagem da perda com o nosso sistema arduino 5%
     var perdas_com_arduino = (sacas_lucro * 5) / 100;
 
-    // lucro Bruto - investimento
+    // lucro Liquido - investimento
     var lucro_liquido = sacas_lucro - quantidade_inves;
 
     // Calculo de lucro e prejuizo
@@ -201,7 +249,7 @@
 
 
         <div class="cards_content">
-            <h2>Sem usar nosso sistema GrãoTech:</h2>
+            <h2>Sem usar o nosso sistema GrãoTech:</h2>
             <div>
                 <h3 class="color_success">Estimativa de lucro bruto s/perdas: ${formation_lucro} </h3>
             </div>
