@@ -12,24 +12,25 @@
       display: flex;
       justify-content: center;
       background-image: url("https://media.seudinheiro.com/uploads/2018/12/soja.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
 
-    img{
+    img {
       cursor: pointer;
       width: 500px;
       margin-right: 20px;
       border-radius: 10px;
       margin-top: 20vh;
-      height: 55vh;
+      height: 350px;
       width: 400px;
       transition: 0.5s;
     }
 
     img:hover {
       -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        transform: scale(0.8);
-        
+      -ms-transform: scale(0.8);
+      transform: scale(0.8);
     }
     .card_simulator {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -48,8 +49,8 @@
 
     .card_simulator:hover {
       -webkit-transform: scale(0.9);
-        -ms-transform: scale(0.9);
-        transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
     }
 
     .row {
@@ -75,7 +76,7 @@
       border-bottom: 1px solid grey;
     }
 
-    input:focus{
+    input:focus {
       box-shadow: 0 0 0 0;
       outline: 0;
     }
@@ -121,33 +122,41 @@
       margin-top: 50px;
     }
 
-    span{
+    span {
       font-size: 13px;
     }
   </style>
   <body id="background">
-
-    <img src="https://cdn.discordapp.com/attachments/941765312540454982/951835897769377812/grao_tech_1.png" alt="">
+    <img
+      src="https://cdn.discordapp.com/attachments/941765312540454982/951835897769377812/grao_tech_1.png"
+      alt=""
+    />
 
     <div class="card_simulator">
       <h2>Simulador Financeiro</h2>
 
       <div id="campos">
         <span
-          >Simule a quantidade de redução/perdas não utilizando o nosso sistema e utilizando.</span
+          >Simule a quantidade de redução/perdas não utilizando o nosso sistema
+          e utilizando.</span
         >
         <div class="row">
           <div class="column">
-          <span>Valor investido na Safra: </span>
+            <span>Valor investido na Safra: </span>
 
-            <input type="number" name="" placeholder="R$00,00" id="qtd_investimentos" />
+            <input
+              type="number"
+              name=""
+              placeholder="R$00,00"
+              id="qtd_investimentos"
+            />
           </div>
-        <div class="column">
-          <span>Quantidade colhida na safra: Kg</span>
+          <div class="column">
+            <span>Quantidade colhida na safra: Kg</span>
 
-          <input type="number" placeholder="0kg" name="" id="qtd_graos" />
+            <input type="number" placeholder="0kg" name="" id="qtd_graos" />
+          </div>
         </div>
-      </div>
         <div>
           <button onclick="calcular()">Calcular</button>
         </div>
